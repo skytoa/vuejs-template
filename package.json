@@ -40,7 +40,7 @@
     "up:install": "taze major --install && npx taze -w && pnpm i"
   },
   "dependencies": {
-    "@pinia/testing": "^0.0.14",
+    "@pinia/testing": "^0.1.2",
     "@unocss/reset": "^0.47.6",
     "@vueuse/core": "^9.13.0",
     "@vueuse/head": "^1.1.26",
