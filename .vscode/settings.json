@@ -1,0 +1,80 @@
+{
+  "cSpell.words": [
+    "antfu",
+    "attributify",
+    "browserslist",
+    "commitlint",
+    "demi",
+    "iconify",
+    "intlify",
+    "loglevel",
+    "nprogress",
+    "Parens",
+    "pinia",
+    "pkgs",
+    "pnpm",
+    "prebuild",
+    "preinstall",
+    "stylelint",
+    "unocss",
+    "unplugin",
+    "vite",
+    "vitejs",
+    "vitesse",
+    "vitest",
+    "vuedx",
+    "vueuse"
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true,
+    "source.fixAll.markdownlint": true,
+    "source.fixAll.prettier": true
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.rulers": [88],
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+  "files.associations": {
+    "*.css": "postcss",
+    ".husky/commit-msg": "shellscript",
+    ".husky/pre-commit": "shellscript",
+    ".husky/pre-push": "shellscript",
+    ".importsortrc": "json",
+    ".markdownlintignore": "ignore"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": "locales",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.sourceLanguage": "en",
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "prettier.enable": true,
+  "prettier.configPath": ".prettierrc.json",
+  "stylelint.validate": [
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

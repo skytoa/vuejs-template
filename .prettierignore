@@ -1,0 +1,12 @@
+.npmrc
+.nvmrc
+.github/
+.husky/
+.vscode/
+**/*.md
+**/coverage/
+dist/
+locales/
+node_modules/
+src/components.d.ts
+src/auto-imports.d.ts

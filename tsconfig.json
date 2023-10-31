@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "paths": {
+      "@/*": ["./*"],
+      "~/*": ["./src/*"]
+    },
+    "plugins": [
+      {
+        "name": "@vuedx/typescript-plugin-vue"
+      }
+    ],
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "types": [
+      "vitest",
+      "vite/client",
+      "vite-plugin-pwa/client",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-component-preview/client",
+      "vite-plugin-vue-layouts/client"
+    ]
+  },
+  "exclude": ["cypress", "dist", "node_modules", "public"]
+}

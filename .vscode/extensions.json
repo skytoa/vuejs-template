@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "andrew-codes.cypress-snippets",
+    "antfu.goto-alias",
+    "antfu.iconify",
+    "antfu.unocss",
+    "antfu.vite",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "hwencc.html-tag-wrapper",
+    "lokalise.i18n-ally",
+    "pkief.material-icon-theme",
+    "streetsidesoftware.code-spell-checker",
+    "stylelint.vscode-stylelint",
+    "vue.volar",
+    "wix.vscode-import-cost"
+  ]
+}
